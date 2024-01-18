@@ -130,9 +130,7 @@ function StockUserRoleScopesItems() {
             >
               <TableToolbarContent className={styles.toolbarContent}>
                 <TableToolbarSearch persistent onChange={onInputChange} />
-                <TableToolbarMenu>
-                  <TableToolbarAction onClick={""}>Refresh</TableToolbarAction>
-                </TableToolbarMenu>
+
                 <AddStockUserRoleScopeActionButton />
               </TableToolbarContent>
             </TableToolbar>
